@@ -2,10 +2,11 @@ def add(x, y):
     return x+y
 
 def abs(x):
-    if x>=0:
-        return x
-    else:
-        return -x
+    return x if x >= 0 else -x
+    # if x>=0:
+    #     return x
+    # else:
+    #     return -x
 
 # f(n) = 1*2*3*...*(n-1)*n
 # def factorial(n):
